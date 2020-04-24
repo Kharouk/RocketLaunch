@@ -7,7 +7,13 @@ extends Node
 # or better yet:
 
 onready var animationPlayer : AnimationPlayer = $AnimationPlayer
+onready var titleSprite := $Title
 
 func _ready():
-	animationPlayer.play("Launch")
+	pass
 
+
+
+func _on_LaunchButton_pressed():
+	titleSprite.hide()
+	animationPlayer.play("Launch")
