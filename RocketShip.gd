@@ -11,4 +11,5 @@ func _ready():
 	print('Hello World!')
 
 
-func _process(delta):	pass
+func _process(delta):
+	pass
