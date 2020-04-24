@@ -8,6 +8,7 @@ extends Node
 
 onready var animationPlayer : AnimationPlayer = $AnimationPlayer
 onready var titleSprite := $Title
+onready var smallSteps := $SmallStepsSound
 
 func _ready():
 	pass
@@ -17,3 +18,4 @@ func _ready():
 func _on_LaunchButton_pressed():
 	titleSprite.hide()
 	animationPlayer.play("Launch")
+	smallSteps.play()
