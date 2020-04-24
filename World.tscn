@@ -7,7 +7,7 @@
 resource_name = "Launch"
 tracks/0/type = "value"
 tracks/0/path = NodePath("RocketShip:position")
-tracks/0/interp = 1
+tracks/0/interp = 2
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -22,7 +22,7 @@ tracks/0/keys = {
 script = ExtResource( 2 )
 
 [node name="RocketShip" type="Sprite" parent="."]
-position = Vector2( 640, 546.8 )
+position = Vector2( 640, 620 )
 scale = Vector2( 2, 2 )
 texture = ExtResource( 1 )
 
