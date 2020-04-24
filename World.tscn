@@ -77,24 +77,20 @@ mix_target = 2
 [node name="Stars" type="AnimatedSprite" parent="."]
 position = Vector2( 207, 160 )
 frames = SubResource( 2 )
-frame = 1
 playing = true
 
 [node name="Stars2" type="AnimatedSprite" parent="."]
 position = Vector2( 1091, 140 )
 frames = SubResource( 2 )
-frame = 1
 playing = true
 
 [node name="Stars3" type="AnimatedSprite" parent="."]
 position = Vector2( 371, 460 )
 frames = SubResource( 2 )
-frame = 1
 playing = true
 
 [node name="Stars4" type="AnimatedSprite" parent="."]
 position = Vector2( 1097, 552 )
 frames = SubResource( 2 )
-frame = 1
 playing = true
 [connection signal="pressed" from="LaunchButton" to="." method="_on_LaunchButton_pressed"]
